@@ -1,0 +1,56 @@
+
+name: Deploy Master
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: boolean
+
+jobs:
+  build:
+    defaults:
+      run:
+        working-directory: ./
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+    
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+        
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
+      - name: Installing project dependencies
+        run: npm install
+
+      - name: Building the project
+        run: npm run build
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: 72.167.79.215
+          username: ${{ secrets.username }}
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./
+          server-dir: /
