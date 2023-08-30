@@ -54,3 +54,4 @@ jobs:
           password: cRosby87123!
           local-dir: ./dist/
           server-dir: /
+          protocol: ftps
