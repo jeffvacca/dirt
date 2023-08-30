@@ -35,7 +35,7 @@ export default {
     /* Color fallback */
     color: #fff;
     -webkit-background-clip: text;
-
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -86,7 +86,7 @@ export default {
 
 /* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
 .clip-text_one {
-    background-image: url(@/assets/img/group-1-color.jpg);
+    background-image: url(../../public/img/group-1-color.jpg);
     background-size: contain;
 }
 </style>
