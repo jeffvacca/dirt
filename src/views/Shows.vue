@@ -22,7 +22,7 @@ export default {
     <div class="about flex justify-content-center py-5">
       <Card class="w-10">
         <template #header>
-          <div class="w-full h-16rem bg-cover bg-center" style="background-image:url('public/img/group-2-bw.jpg')">
+          <div class="w-full h-16rem bg-cover bg-center show-bg">
           </div>
         </template>
         <template #title>September 30 - Finland House </template>
@@ -48,12 +48,16 @@ export default {
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
+  .show-bg{
+    background-image: url(@/assets/img/group-2-bw.jpg);
+  }
 @media (min-width: 1024px) {
   .about {
     min-height: calc(100vh - 60px);
     display: flex;
     align-items: center;
   }
+
 }
 </style>
