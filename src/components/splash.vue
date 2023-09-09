@@ -18,7 +18,7 @@ export default {
 .splash {
     text-align: center;
     width:100vw;
-    height:100vh;
+    height:calc(100vh - 60px);
 }
 
 
@@ -84,7 +84,6 @@ export default {
     background-position: 50% 50%;
 }
 
-/* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
 .clip-text_one {
     background-image: url(../../public/img/group-1-color.jpg);
     background-size: contain;
