@@ -5,37 +5,37 @@ export default {
     return {
       images: [
         {
-          itemImageSrc: 'src/assets/img/group-2-bw.jpg',
+          itemImageSrc: '/img/group-2-bw.jpg',
           alt: '',
           title: ''
         },
         {
-          itemImageSrc: 'src/assets/img/group-3.jpg',
+          itemImageSrc: '/img/group-3.jpg',
           alt: '',
           title: ''
         },
         {
-          itemImageSrc: 'src/assets/img/group-1-color.jpg',
+          itemImageSrc: '/img/group-1-color.jpg',
           alt: '',
           title: ''
         },
         {
-          itemImageSrc: 'src/assets/img/group-4.jpg',
+          itemImageSrc: '/img/group-4.jpg',
           alt: '',
           title: ''
         }, 
         {
-          itemImageSrc: 'src/assets/img/group-5.jpg',
+          itemImageSrc: '/img/group-5.jpg',
           alt: '',
           title: ''
         }, 
         {
-          itemImageSrc: 'src/assets/img/group-6.jpg',
+          itemImageSrc: '/img/group-6.jpg',
           alt: '',
           title: ''
         }, 
         {
-          itemImageSrc: 'src/assets/img/group-7.jpg',
+          itemImageSrc: '/img/group-7.jpg',
           alt: '',
           title: ''
         }, 
