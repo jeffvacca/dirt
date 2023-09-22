@@ -17,6 +17,11 @@ export default {
                     label: 'Shows',
                     icon: 'pi pi-fw pi-calendar',
                     to: '/shows'
+                },
+                {
+                    label: 'Gallery',
+                    icon: 'pi pi-fw pi-image',
+                    to: '/gallery'
                 }
             ]
         }
