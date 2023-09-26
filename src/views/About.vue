@@ -64,7 +64,7 @@ export default {
           img: '/img/ryan-2.jpg',
           name: 'Ryan Mowatt',
           instrument: 'Guitar',
-          body: `<p>Ryan Mowatt, born and raised in south florid, plays eleven instruments. </p><p>Ryan is currently also the guitarist for Stir
+          body: `<p>Ryan Mowatt, born and raised in South Florida, plays eleven instruments. </p><p>Ryan is currently also the guitarist for Stir
           it Up (a local tribute to the music of Bob Marley).  Ryan has been touring, doing studio work, writing and
           recording for the last 21 years after graduating from Florida State University for music theory
           and composition.</p>`
