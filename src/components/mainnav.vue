@@ -19,6 +19,11 @@ export default {
                     to: '/shows'
                 },
                 {
+                    label: 'About',
+                    icon: 'pi pi-fw pi-info-circle',
+                    to: '/about'
+                },
+                {
                     label: 'Gallery',
                     icon: 'pi pi-fw pi-image',
                     to: '/gallery'
@@ -32,12 +37,6 @@ export default {
 <template>
     <div>
         <Menubar :model="items">
-            <!-- <template #item="{ label, item, props, root }">
-                <router-link v-if="item.route" :to="item.route" custom>
-                        <span :class="item.icon"></span>
-                        <span>{{ item.label }}</span>
-                </router-link>
-            </template> -->
         </Menubar>
     </div>
 </template>
