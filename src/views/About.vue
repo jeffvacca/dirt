@@ -79,8 +79,23 @@ export default {
 <template>
   <main class="p-4">
     <div class="grid">
+      <div class="col-12 px-8 pt-4 mb-2 text-center">
+        <h1>Ten Pounds of DiRT</h1>
+        <h4>90's Grunge Tribute</h4>
+      </div>
+      <div class="col:12 lg:col-8 lg:col-offset-2 xl:col-6 xl:col-offset-3 px-2 mb-6">
+        <p>Lead singer Jason Ames was part of the birth of Grunge in Seattle. His band Mama Troll in 1986 was playing in shows with then still unknown bands like Alice in Chains and Mother Love Bone (future members of Pearl Jam).</p>
+        <p>The idea of the band was born in 2020 and finally after covid the full band got together. Ten Pounds of DiRT is comprised of seasoned musicians with decades of experience in live performances in theaters, arenas and festivals around the world.</p>
+        <p>From the beginning the band’s idea was not to pay tribute to one band only, but to capture the feel and essence of the entire Grunge movement.</p>
+        <p>AND THEY DELIVER!</p>
+        <p>The Show is PACKED with the true power and energy of Grunge like TEN POUNDS OF DiRT ...in a five pound bag.</p>
+      </div>
+    </div>
+
+
+    <div class="grid">
       <div class="col px-8 pt-4 mb-6 text-center">
-        <h1>Personnel</h1>
+        <h2>Personnel</h2>
       </div>
     </div>
     <MemberBio v-for="(bio, index) in bios" :bio="bio" :key="bio.name" :ind="index"></MemberBio>
