@@ -11,23 +11,28 @@ export default {
         {
           img: '/img/jason-1.jpg',
           name: 'Jason Ames',
-          instrument: 'Lead Vocals',
-          body: `<p>Jason Ames formed his 1st band at 16 years old.</p>
-        <p>He moved to a pre-grunge, un-famous, Seattle in 1986, joined a band called Ruff Toiz, played the local scene with
-          then unknown groups like Alice In Chains & members of other now famous Seattle grunge bands.</p>
-        <p>From 1990-94, Jason formed Mama Troll and recorded 1 album - with guitarist Roger Fisher (Heart) at his studio, with some guest spots also featuring Roger.</p>
-        <p>Jason was offered (1997) the lead vocal position for Blind Melon after the death of original lead
-          singer Shannon Hoon, but was unable due to contractual obligations at the time.</p>
-        <p>The Tower Of Power horn section played on 9 of the 12 tracks for a blues side project called
-          Voodoo Roosters.</p>
-        <p>In 1998, he recorded a duet with singer Ann Wilson (Heart) called “Cold Tears” for a project called Treason.</p>
-        <p>Jason earned a Grammy Nomination in 1999 Grammy for lead vocals on “Chasing Blue Sky” (credited as Blue Jay) on the long form animated video with drummer Scott Rockenfield (Queensryche) which also featured Sir-Mix-Alot.</p>
-        <p>From 2000-2007, Jason lived in Perugia Italy & had a #1 hit called “Yesterday” as well as 2 others that charted in the Commercial House Music genere.</p>
-        <p>Upon returning back to the United States, he did multiple world tours as the 6th member of
-          Queensryche & solo shows with their lead singer Geoff Tate, as keyboards, rhythm guitar &
-          backing vocals. Opening for groups & festivals such as Metallica, Black Sabbath (with Ronnie
-          James Dio), Motley Crue, Alice Cooper, Korn, Limp Biskit, and many more.</p>
-        <p>Currently, Jason is focusing on lead vocals in 2 different tribute bands - H2O a tribute to the music of Hall & Oates and DiRT......the best & most genuine grunge tribute in the world!</p>`
+          instrument: 'Lead Vocals, Rhythm guitar, Songwriter',
+          body: `<p>Professional career musician over 35 years with versatile resume of music genres.</p><p>
+          Jason started his first band at age 16 in Denver Colorado.
+          He moved to Seattle WA 1986 during the pre-grunge era. He joined Ruff Toiz, playing with then still unknown bands like Alice in Chains and other now famous Seattle Grunge bands.</p><p>
+          In 1990 Jason formed Mama Troll and recorded 1 album - with guitarist Roger Fisher (Heart) at his studio, with some guest spots also featuring Roger.</p><p>
+          In 1997 Jason was offered the lead vocal position for Blind Melon after the death of original lead singer Shannon Hoon, but was unable due to contractual obligations at the time.</p><p>
+          Jason's (Blue Jay) next album was with his blues band, Voodoo Rooster featuring 
+          The Tower Of Power horn section playing on 9 of the 12 tracks.</p><p>
+          In 1998 Jason recorded a duet with singer Ann Wilson (Heart) “Cold Tears” for a project
+          called Treason.</p><p>
+          In 1999 Jason (as Blue Jay) was nominated for a Grammy for lead vocals on “Chasing Blue Sky” on the long form animated video with drummer Scott Rockenfield (Queensryche) which also featured Sir-Mix-A Lot.</p><p>
+          In 2000 Jason moved to Perugia, Italy.
+          During his 8 years in Italy he produced #1 dance hit "Yesterday” as well as 2 others that charted in the Commercial House Music genre.</p><p>
+          Upon his return back to the United States, he did multiple world tours as the 6
+          th member of Queensryche and solo shows with their lead singer Geoff Tate. 
+          Jason played keyboards,  rhythm guitar and performed backing vocals. 
+          Tours included opening for groups & festivals including bands such as Metallica, Black Sabbath (with Ronnie James Dio), Motley Crue, Alice Cooper, Korn, Limp Bizkit, and many more.</p><p>
+          Currently Jason lives in Florida and he is focusing mostly as lead singer for 2 tribute bands.  TEN POUNDS OF DiRT grunge tribute takes him back to his Seattle roots with not only one band tribute, but the whole grunge genre. H2O tribute celebrates the nostalgic music of Hall and Oates in Broadway style show.</p><p>
+          He is also working with his original Seattle band Syztem7 for their 2nd album.
+          </p>
+          
+          `
         },
         {
           img: '/img/chris-1.jpg',
@@ -84,9 +89,13 @@ export default {
         <h4>90's Grunge Tribute</h4>
       </div>
       <div class="col-12 lg:col-8 lg:col-offset-2 xl:col-6 xl:col-offset-3 px-2 mb-6">
-        <p>Lead singer Jason Ames was part of the birth of Grunge in Seattle. His band Mama Troll in 1986 was playing in shows with then still unknown bands like Alice in Chains and Mother Love Bone (future members of Pearl Jam).</p>
-        <p>The idea of the band was born in 2020 and finally after covid the full band got together. Ten Pounds of DiRT is comprised of seasoned musicians with decades of experience in live performances in theaters, arenas and festivals around the world.</p>
-        <p>From the beginning the band's idea was not to pay tribute to one band only, but to capture the feel and essence of the entire Grunge movement.</p>
+        <p>Lead singer Jason Ames was part of the birth of Grunge in Seattle. His band Mama Troll in 1986 was playing in
+          shows with then still unknown bands like Alice in Chains and Mother Love Bone (future members of Pearl Jam).</p>
+        <p>The idea of the band was born in 2020 and finally after covid the full band got together. Ten Pounds of DiRT is
+          comprised of seasoned musicians with decades of experience in live performances in theaters, arenas and
+          festivals around the world.</p>
+        <p>From the beginning the band's idea was not to pay tribute to one band only, but to capture the feel and essence
+          of the entire Grunge movement.</p>
         <p>AND THEY DELIVER!</p>
         <p>The Show is PACKED with the true power and energy of Grunge like TEN POUNDS OF DiRT ...in a five pound bag.</p>
       </div>
