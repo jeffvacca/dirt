@@ -58,7 +58,7 @@ export default {
           img: '/img/joe-1.jpg',
           name: 'Joe Cole',
           instrument: 'Drums',
-          body: `<p>Joe Cole is a multi-instrumentalist from Jupiter, FL who started learning drums at 14 and quickly fell in love with the arts. </p><p>Coming from a wide background of funk, rock, reggae and metal, he plays to suit the mood. Other hobbies include trying to make everything a joke and playing rugby with the Palm Beach Panthers.</p>`
+          body: `<p>Joe Cole is a multi-instrumental Florida native who started learning drums at 14 and quickly fell in love with the arts. Coming from a wide background of funk, rock, hip hop, reggae and metal, he plays to suit the mood.  </p><p>From 2016-2019 he played drums and sang harmonies with his original band Vibes Farm. Their music incorporated elements of all his influences, branding themselves with an in-your-face reggae-rock sound. They have supported bands such as Steel Pulse, Tropidelic, The Expendables, Passafire, Al Andersen and The Original Wailers.</p><p>Later in 2019 he moved to Hawaii to live with his sister for a few months before returning to Palm Beach County. Since returning, he has played alongside many local bands including his current project Ten Pounds of DiRT. Other hobbies include trying to make everything a joke and playing rugby with the Palm Beach Panthers.</p>`
         },
         {
           img: '/img/ryan-2.jpg',
@@ -83,10 +83,10 @@ export default {
         <h1>Ten Pounds of DiRT</h1>
         <h4>90's Grunge Tribute</h4>
       </div>
-      <div class="col:12 lg:col-8 lg:col-offset-2 xl:col-6 xl:col-offset-3 px-2 mb-6">
+      <div class="col-12 lg:col-8 lg:col-offset-2 xl:col-6 xl:col-offset-3 px-2 mb-6">
         <p>Lead singer Jason Ames was part of the birth of Grunge in Seattle. His band Mama Troll in 1986 was playing in shows with then still unknown bands like Alice in Chains and Mother Love Bone (future members of Pearl Jam).</p>
         <p>The idea of the band was born in 2020 and finally after covid the full band got together. Ten Pounds of DiRT is comprised of seasoned musicians with decades of experience in live performances in theaters, arenas and festivals around the world.</p>
-        <p>From the beginning the band’s idea was not to pay tribute to one band only, but to capture the feel and essence of the entire Grunge movement.</p>
+        <p>From the beginning the band's idea was not to pay tribute to one band only, but to capture the feel and essence of the entire Grunge movement.</p>
         <p>AND THEY DELIVER!</p>
         <p>The Show is PACKED with the true power and energy of Grunge like TEN POUNDS OF DiRT ...in a five pound bag.</p>
       </div>

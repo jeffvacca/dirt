@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import Shows from '../views/Shows.vue'
 import About from '../views/About.vue'
 import Gallery from '../views/Gallery.vue'
+import Contact from '../views/Contact.vue'
+
 
 
 
@@ -40,6 +42,15 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       //component: () => import('../views/gallery.vue')
       component: Gallery
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      //component: () => import('../views/contact.vue')
+      component: Contact
     },
     { path: '/:pathMatch(.*)*', name: 'not-found', component: HomeView },
   ]

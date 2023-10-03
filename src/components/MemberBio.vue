@@ -16,10 +16,7 @@ export default {
   },
   methods: {
     colAlign(ind) {
-      console.log(ind);
-      console.log(typeof (ind));
       return ind % 2 ? 'right' : 'left';
-      // return ind;
     }
   }
 

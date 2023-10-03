@@ -27,6 +27,11 @@ export default {
                     label: 'Gallery',
                     icon: 'pi pi-fw pi-image',
                     to: '/gallery'
+                },
+                {
+                    label: 'Contact',
+                    icon: 'pi pi-fw pi-send',
+                    to: '/contact'
                 }
             ]
         }
@@ -37,6 +42,10 @@ export default {
 <template>
     <div>
         <Menubar :model="items">
+            <template #start>
+                <img alt="logo" src="/img/dirt-painting-sm.jpg" height="40" class="mr-2" />
+            </template>
+
         </Menubar>
     </div>
 </template>

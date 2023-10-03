@@ -17,9 +17,21 @@ export default {
 <style lang="scss" scoped>
 .splash {
     text-align: center;
-    width:100vw;
-    height:calc(100vh - 60px);
+    width: 100vw;
+    height: calc(100vh - 60px);
 }
+
+// @media screen and (min-width: 1200px) {
+//     .splash {
+//         height: calc(90vh - 60px);
+//     }
+//     .clip-text{
+//         font-size: 22vw;
+//         margin: .20em;
+//         padding: .4em .4em;
+//     }
+// }
+
 
 
 /* Clip text element */
@@ -89,3 +101,8 @@ export default {
     background-size: contain;
 }
 </style>
+
+<!-- $sm	Breakpoint of screens such as phones.	576px
+$md	Breakpoint of screens such as tablets.	768px
+$lg	Breakpoint of screens such as notebook monitors.	992px
+$xl	Breakpoint of smaller screens such as desktop monitors.	1200px -->
