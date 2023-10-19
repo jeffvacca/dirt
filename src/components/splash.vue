@@ -17,8 +17,11 @@ export default {
 <style lang="scss" scoped>
 .splash {
     text-align: center;
+    // width: 100vw;
+    // height: calc(100vh - 60px);
+
     width: 100vw;
-    height: calc(100vh - 60px);
+    height: calc(50vh - 60px);
 }
 
 // @media screen and (min-width: 1200px) {
@@ -36,19 +39,25 @@ export default {
 
 /* Clip text element */
 .clip-text {
-    font-size: 26vw;
     font-weight: bold;
     line-height: 1;
     position: relative;
     display: inline-block;
-    margin: .25em;
-    padding: .5em .5em;
+    // font-size: 26vw;
+    // margin: .25em;
+    // padding: .5em .5em;
     text-align: center;
     /* Color fallback */
     color: #fff;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    font-size: 21vw;
+    margin:0 .25em;
+    padding: .2em .2em;
+
+
 }
 
 .clip-text:before,
@@ -65,6 +74,8 @@ export default {
     bottom: 0;
     left: 0;
     background-image: inherit;
+    background-size: 100%;
+    background-position: center;
 }
 
 /* Text Background (black zone) */
@@ -98,7 +109,10 @@ export default {
 
 .clip-text_one {
     background-image: url(../../public/img/group-1-color.jpg);
-    background-size: contain;
+    // background-size: contain;
+    background-size:40%;
+    background-position: center;
+
 }
 </style>
 
