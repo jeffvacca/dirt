@@ -21,7 +21,7 @@ export default {
     // height: calc(100vh - 60px);
 
     width: 100vw;
-    height: calc(50vh - 60px);
+    // height: calc(50vh - 60px);
 }
 
 // @media screen and (min-width: 1200px) {
@@ -54,7 +54,7 @@ export default {
     -webkit-text-fill-color: transparent;
 
     font-size: 21vw;
-    margin:0 .25em;
+    margin:0 .2em;
     padding: .2em .2em;
 
 
