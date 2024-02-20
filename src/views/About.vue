@@ -11,7 +11,7 @@ export default {
         {
           img: '/img/jason-1.jpg',
           name: 'Jason Ames',
-          instrument: 'Lead Vocals, Rhythm guitar, Songwriter',
+          instrument: 'Lead Vocals',
           body: `<p>Professional career musician over 35 years with versatile resume of music genres.</p><p>
           Jason started his first band at age 16 in Denver Colorado.
           He moved to Seattle WA 1986 during the pre-grunge era. He joined Ruff Toiz, playing with then still unknown bands like Alice in Chains and other now famous Seattle Grunge bands.</p><p>
@@ -64,15 +64,6 @@ export default {
           name: 'Joe Cole',
           instrument: 'Drums',
           body: `<p>Joe Cole is a multi-instrumental Florida native who started learning drums at 14 and quickly fell in love with the arts. Coming from a wide background of funk, rock, hip hop, reggae and metal, he plays to suit the mood.  </p><p>From 2016-2019 he played drums and sang harmonies with his original band Vibes Farm. Their music incorporated elements of all his influences, branding themselves with an in-your-face reggae-rock sound. They have supported bands such as Steel Pulse, Tropidelic, The Expendables, Passafire, Al Andersen and The Original Wailers.</p><p>Later in 2019 he moved to Hawaii to live with his sister for a few months before returning to Palm Beach County. Since returning, he has played alongside many local bands including his current project Ten Pounds of DiRT. Other hobbies include trying to make everything a joke and playing rugby with the Palm Beach Panthers.</p>`
-        },
-        {
-          img: '/img/ryan-2.jpg',
-          name: 'Ryan Mowatt',
-          instrument: 'Guitar',
-          body: `<p>Ryan Mowatt, born and raised in South Florida, plays eleven instruments. </p><p>Ryan is currently also the guitarist for Stir
-          it Up (a local tribute to the music of Bob Marley).  Ryan has been touring, doing studio work, writing and
-          recording for the last 21 years after graduating from Florida State University for music theory
-          and composition.</p>`
         }
       ]
     }

@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import Shows from '../views/Shows.vue'
 import About from '../views/About.vue'
 import Gallery from '../views/Gallery.vue'
+import Video from '../views/Video.vue'
+
 import Contact from '../views/Contact.vue'
 
 
@@ -34,6 +36,11 @@ const router = createRouter({
       path: '/gallery',
       name: 'gallery',
       component: Gallery
+    },
+    {
+      path: '/video',
+      name: 'video',
+      component: Video
     },
     {
       path: '/contact',

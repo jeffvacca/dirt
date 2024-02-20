@@ -29,6 +29,11 @@ export default {
                     to: '/gallery'
                 },
                 {
+                    label: 'Video',
+                    icon: 'pi pi-fw pi-video',
+                    to: '/video'
+                },
+                {
                     label: 'Contact',
                     icon: 'pi pi-fw pi-send',
                     to: '/contact'
@@ -49,6 +54,7 @@ export default {
                 <a href="https://www.facebook.com/profile.php?id=61552021618031" target="_blank" class="text-color mx-2"><i class="pi pi-facebook text-2xl"></i></a>
                 <a href="https://www.instagram.com/dirtgrungetribute/" target="_blank" class="text-color mx-2"><i class="pi pi-instagram text-2xl"></i>
                 </a>
+                <a href="https://www.youtube.com/@DiRT-gv9iv" target="_blank" class="text-color mx-2"><i class="pi pi-youtube text-2xl"></i></a>
             </template>
         </Menubar>
     </div>
