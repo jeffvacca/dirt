@@ -1,12 +1,8 @@
-<IfModule mod_negotiation.c>
-    Options -MultiViews
-</IfModule>
-
-<IfModule mod_rewrite.c>
+<ifModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /dirt
-    RewriteRule ^dirt/index\.html$ - [L]
+    RewriteBase /
+    RewriteRule ^index\.html$ - [L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule . /dirt/index.html [L]
-</IfModule>
+    RewriteRule . /index.html [L]
+</ifModule>
