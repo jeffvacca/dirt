@@ -1,4 +1,4 @@
-<IfModule mod_rewrite.c>
+<!-- <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /dirt
 RewriteRule ^dirt/index\.html$ - [L]
@@ -6,4 +6,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /dirt/index.html [L]
 </IfModule>
-
+ -->
