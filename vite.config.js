@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  appType: 'spa',
   base: process.env.NODE_ENV === 'production'
     ? '/'
     : '/',
