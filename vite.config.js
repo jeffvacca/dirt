@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   appType: 'spa',
   base: process.env.NODE_ENV === 'production'
-    ? '/dirt/'
+    ? '/'
     : '/',
   resolve: {
     alias: {
