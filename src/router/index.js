@@ -28,32 +28,19 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      //component: () => import('../views/about.vue')
       component: About
     },
     {
       path: '/gallery',
       name: 'gallery',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      //component: () => import('../views/gallery.vue')
       component: Gallery
     },
     {
       path: '/contact',
       name: 'contact',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      //component: () => import('../views/contact.vue')
       component: Contact
     },
-    // { path: '/:pathMatch(.*)*', name: 'not-found', component: HomeView },
-    { path: '/:pathMatch(.*)', component: HomeView }
+    { path: '/:pathMatch(.*)*', name: 'not-found', component: HomeView },
   ]
 })
 
